@@ -1,0 +1,6 @@
+{
+  "name": "TitanWealth: Global Private Wealth Simulation",
+  "description": "A comprehensive private wealth management tracker and global macroeconomic simulation for aspiring industrialists, grounded in the UK Financial Stability Report and real-time Google market data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

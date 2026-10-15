@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Nunito', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  .font-mono-numbers {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Duolingo Tactile 3D Pop Effects */
+.duo-card {
+  background-color: #ffffff;
+  border: 2px solid #E5E5E5;
+  border-radius: 1rem;
+  box-shadow: 0 4px 0 0 #D4D4D4;
+}
+
+.duo-btn-green {
+  background-color: #58CC02;
+  border: 2px solid #46A302;
+  box-shadow: 0 4px 0 0 #388402;
+  color: #ffffff;
+  transition: all 0.1s ease;
+}
+.duo-btn-green:hover {
+  background-color: #61DE02;
+}
+.duo-btn-green:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.duo-btn-blue {
+  background-color: #1CB0F6;
+  border: 2px solid #1899D6;
+  box-shadow: 0 4px 0 0 #137CB0;
+  color: #ffffff;
+  transition: all 0.1s ease;
+}
+.duo-btn-blue:hover {
+  background-color: #29B9FD;
+}
+.duo-btn-blue:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.duo-btn-amber {
+  background-color: #FFC800;
+  border: 2px solid #E0A800;
+  box-shadow: 0 4px 0 0 #B88600;
+  color: #451A03;
+  transition: all 0.1s ease;
+}
+.duo-btn-amber:hover {
+  background-color: #FFD220;
+}
+.duo-btn-amber:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.duo-btn-white {
+  background-color: #FFFFFF;
+  border: 2px solid #E5E5E5;
+  box-shadow: 0 4px 0 0 #D4D4D4;
+  color: #334155;
+  transition: all 0.1s ease;
+}
+.duo-btn-white:hover {
+  background-color: #F8FAFC;
+}
+.duo-btn-white:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.duo-btn-red {
+  background-color: #FF4B4B;
+  border: 2px solid #E03535;
+  box-shadow: 0 4px 0 0 #B81E1E;
+  color: #ffffff;
+  transition: all 0.1s ease;
+}
+.duo-btn-red:hover {
+  background-color: #FF5A5A;
+}
+.duo-btn-red:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 transparent;
+}
